@@ -16,6 +16,16 @@ Todos os comandos principais para se utilizar no no terminal sobre o GIT
   git restore --staged .    : Faz os arquivos voltarem para antes do "git add ." habilitando o "git restore ."
   git commit amend -m ""    : Faz você alterar o texto escrito do último commit.
   git reset --soft HEAD~1   : Deleta seu último commit
-  git rm  -r --cached	    : Reseta o cache, possibilitando colocar documentos que antes estavam fora da pasta .gitignore, dentro da mesma.
+  git rm  -r --cached	    : Reseta o cache, possibilitando colocar documentos fora da pasta .gitignore, dentro da mesma.
   git pull		    : Busca por atualizações do código dentro do github, e retorna com o código atualizado no seu VSCode.
+```
+## NodeJS
+
+Todos os comandos principais para se utilizar no no terminal sobre o NodeJS
+
+```
+npm init -y             : Serve para instalar o package.json
+npm install lite-server : instala o lite-server o package-lock.json & o node_modules
+    * Dentro do package.json alterar a linha escrita 'test' para "start" & 'conteúdo' para 'lite-server'
+npm start               : Starta o lite-server (funciona como a extenção live-server)  
 ```
