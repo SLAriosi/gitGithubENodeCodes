@@ -32,8 +32,9 @@ Arquivos importantes de se ter no seu projeto
 Todos os comandos principais para se utilizar no no terminal sobre o NodeJS
 
 ```
-npm init -y             : Serve para instalar o package.json
-npm install lite-server : instala o lite-server o package-lock.json & o node_modules
+npm init -y                : Serve para instalar o package.json
+npm install lite-server    : instala o lite-server o package-lock.json & o node_modules
     * Dentro do package.json alterar a linha escrita 'test' para "start" & 'conteúdo' para 'lite-server'
-npm start               : Starta o lite-server (funciona como a extenção live-server)  
+npm start                  : Starta o lite-server (funciona como a extenção live-server)
+npm install express --save : Instala o Express (biblioteca de arquivos)
 ```
