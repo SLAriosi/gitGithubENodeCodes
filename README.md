@@ -19,6 +19,14 @@ Todos os comandos principais para se utilizar no no terminal sobre o GIT
   git rm  -r --cached	    : Reseta o cache, possibilitando colocar documentos fora da pasta .gitignore, dentro da mesma.
   git pull		    : Busca por atualizações do código dentro do github, e retorna com o código atualizado no seu VSCode.
 ```
+### Arquivos GIT
+
+Arquivos importantes de se ter no seu projeto
+
+```
+  .gitignore    : Faz o git não importar as pastas / arquivos que estiverem dento desse documento para dentro do github.
+  .gitkeep    : Faz o github enxergar uma pasta mesmo que ela esteja vazia.
+```
 ## NodeJS
 
 Todos os comandos principais para se utilizar no no terminal sobre o NodeJS
