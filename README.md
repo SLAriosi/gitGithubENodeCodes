@@ -32,10 +32,23 @@ Arquivos importantes de se ter no seu projeto
 Todos os comandos principais para se utilizar no no terminal sobre o NodeJS
 
 ```
-npm init -y                    : Serve para instalar o package.json
-npm install lite-server        : instala o lite-server o package-lock.json & o node_modules
+npm init -y                        : Serve para instalar o package.json
+npm install lite-server            : instala o lite-server o package-lock.json & o node_modules
     * Dentro do package.json alterar a linha escrita 'test' para "start" & 'conteúdo' para 'lite-server'
-npm start                      : Starta o lite-server (funciona como a extenção live-server)
-npm install express --save     : Instala o Express (biblioteca de arquivos)
-npm install nodemon --save-dev : Faz Instala o Nodemon, que faz atualizações periódicas ao nosso servidor sempre que alterarmos algo, como no lite-server, mas aqui nao precisa parar e startar o server.
+npm start                          : Starta o lite-server (funciona como a extenção live-server)
+npm install express --save         : Instala o Express (biblioteca de arquivos)
+npm install nodemon --save-dev     : Faz Instala o Nodemon, que faz atualizações periódicas ao nosso servidor sempre que alterarmos algo, como no lite-server, mas aqui nao precisa parar e startar o server.
+npm install sqlite3 sqlite --save  : Instala o SQLite no seu programa.
+```
+
+## SQL
+
+Comandos vistos para utilizar com o SQL. (letras minúsculas são as que mudam)
+
+```
+CREATE TABLE users (id INTEGER PRIMARY KEY AUTOINCREMENT, name VARCHAR, avatar VARCHAR NULL, created_at TIMESTAMP DEFAULT CURRENT TIMESTAM) : Cria uma tabela com o nome que você colocar no lugar do users.
+ALTER TABLE users RENAME TO clients              : Altera o nome da tabela "" para o que voce colocar.
+ALTER TABLE clients ADD status VARCHAR           : Acidiona uma Coluna a uma tabela já existente.
+ALTER TABLE users RENAME COLUMN status TO active : Renomeia uma coluna que você escolher de uma tabela escolhida.
+ALTER TABLE users DROP COLUMN status             : Deleta uma coluna.
 ```
