@@ -47,8 +47,24 @@ Comandos vistos para utilizar com o SQL. (letras minúsculas são as que mudam)
 
 ```
 CREATE TABLE users (id INTEGER PRIMARY KEY AUTOINCREMENT, name VARCHAR, avatar VARCHAR NULL, created_at TIMESTAMP DEFAULT CURRENT TIMESTAM) : Cria uma tabela com o nome que você colocar no lugar do users.
-ALTER TABLE users RENAME TO clients              : Altera o nome da tabela "" para o que voce colocar.
-ALTER TABLE clients ADD status VARCHAR           : Acidiona uma Coluna a uma tabela já existente.
-ALTER TABLE users RENAME COLUMN status TO active : Renomeia uma coluna que você escolher de uma tabela escolhida.
-ALTER TABLE users DROP COLUMN status             : Deleta uma coluna.
+ALTER TABLE users RENAME TO clients                                       : Altera o nome da tabela "" para o que voce colocar.
+ALTER TABLE clients ADD status VARCHAR                                    : Acidiona uma Coluna a uma tabela já existente.
+ALTER TABLE users RENAME COLUMN status TO active                          : Renomeia uma coluna que você escolher de uma tabela escolhida.
+ALTER TABLE users DROP COLUMN status                                      : Deleta uma coluna.
+INSERT INTO users (name, email, password) VALUES ('Ariosi Lucas', 'ariosilucas@gmail.com', '123321') : Adiciona valores aos parâmetros NA MESMA ORDEM que foram inseridos nos parênteses.
+SELECT * FROM users                                                       : Mostra todos os detalhes e itens dentro de uma determinada tabela.
+UPDATE users SET avatar = 'lucas.png', name = 'Lucas Ariosi' WHERE id = 1 : Faz o update de uma pessoa específica no seu banco de Dados, nesse caso o numero 1, atualizando o avatar e o nome dessa pessoa.
+DELETE FROM users WHERE id = 3                                            :
 ```
+
+## CRUD oque é ?!
+
+Quais são as tags SQL que são utilizadas para cada uma das palavras no termo CRUD.
+
+`C` `-` `Create` `->` `INSERT` |
+
+`R` `-` `Read` `->` `SELECT`ㅤ|
+
+`U` `-` `Update` `->` `UPDATE` |
+
+`D` `-` `Delete` `->` `DELETE` |
