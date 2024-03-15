@@ -2,6 +2,7 @@
 
 Todos os códigos mais utilizados e importantes para terminal.
 
+
 ## GIT
 
 Todos os comandos principais para se utilizar no no terminal sobre o GIT
@@ -19,6 +20,8 @@ Todos os comandos principais para se utilizar no no terminal sobre o GIT
   git rm  -r --cached	.    : Reseta o cache, possibilitando colocar documentos fora da pasta .gitignore, dentro da mesma.
   git pull		    : Busca por atualizações do código dentro do github, e retorna com o código atualizado no seu VSCode.
 ```
+
+
 ### Arquivos GIT
 
 Arquivos importantes de se ter no seu projeto
@@ -27,6 +30,8 @@ Arquivos importantes de se ter no seu projeto
   .gitignore    : Faz o git não importar as pastas / arquivos que estiverem dento desse documento para dentro do github.
   .gitkeep    : Faz o github enxergar uma pasta mesmo que ela esteja vazia.
 ```
+
+
 ## NodeJS
 
 Todos os comandos principais para se utilizar no no terminal sobre o NodeJS
@@ -40,6 +45,7 @@ npm install express --save         : Instala o Express (biblioteca de arquivos)
 npm install nodemon --save-dev     : Faz Instala o Nodemon, que faz atualizações periódicas ao nosso servidor sempre que alterarmos algo, como no lite-server, mas aqui nao precisa parar e startar o server.
 npm install sqlite3 sqlite --save  : Instala o SQLite no seu programa.
 ```
+
 
 ## SQL
 
@@ -68,3 +74,19 @@ Quais são as tags SQL que são utilizadas para cada uma das palavras no termo C
 `U` `-` `Update` `->` `UPDATE` |
 
 `D` `-` `Delete` `->` `DELETE` |
+
+
+## Query Builder
+
+>  #### Query Builder é um Construtor de Consulta
+>  #### O Query Builder permite que você construa instruções SQL independente do banco de dados utilizado.
+### `Query Builder` `-------->` `Banco de Dados`
+
+
+## Migrations
+
+>  #### É uma forma de versionar a base de dados.
+>  #### Migrations trabalha na manipulação da base de dados: criando, alterando ou removendo.
+>  ## Métodos de uma migrations
+>  ## UP: método responsável por criar ou alterar algo no banco de dados.
+>  ## DOWN: responsável pelo rollback. Ou seja, desfazer as alterações realizadas pela migration.
