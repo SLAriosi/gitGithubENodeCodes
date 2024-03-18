@@ -90,3 +90,14 @@ Quais são as tags SQL que são utilizadas para cada uma das palavras no termo C
 >  ## Métodos de uma migrations
 >  ## UP: método responsável por criar ou alterar algo no banco de dados.
 >  ## DOWN: responsável pelo rollback. Ou seja, desfazer as alterações realizadas pela migration.
+
+## NPX
+### Package Runner
+> ### `NPM`
+>  #### Node Package Manager é o gerenciador de pacotes padrão para Node.js.
+>  #### Os pacotes e módulos necessários no projeto Node são instalados usando npm.
+>  #### E também utilizamos o npm para executar scripts e bibliotecas instaladas.
+
+> ### `NPX`
+>  #### O npx significa Node Package Execute e vem com o npm acima da versão 5.2.
+>  #### É um executador de pacotes npm que pode executar qualquer pacote que você quiser do registro npm sem sequer instalar esse pacote.
