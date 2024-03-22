@@ -46,6 +46,14 @@ npm install nodemon --save-dev     : Faz Instala o Nodemon, que faz atualizaçõ
 npm install sqlite3 sqlite --save  : Instala o SQLite no seu programa.
 ```
 
+## React
+
+Comando para se utilizar no terminal. Relacionados ao REACT
+
+```
+npm install react-icons --save
+```
+
 
 ## SQL
 
