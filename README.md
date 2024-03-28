@@ -45,6 +45,7 @@ npm install express --save         : Instala o Express (biblioteca de arquivos)
 npm install nodemon --save-dev     : Faz Instala o Nodemon, que faz atualizações periódicas ao nosso servidor sempre que alterarmos algo, como no lite-server, mas aqui nao precisa parar e startar o server.
 npm install sqlite3 sqlite --save  : Instala o SQLite no seu programa.
 npm install react-router-dom       : Instala uma biblioteca para adicionarmos navegação ao APP, clicar no botão Voltar e voltar pra página que a gente estava por exemplo.
+npm install jsonwebtoken           : Instala uma lib para podermos gerar tokens para que o usuário consiga acessar a conta dele por esse método.
 ```
 
 ## React
