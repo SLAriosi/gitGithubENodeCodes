@@ -47,6 +47,7 @@ npm install sqlite3 sqlite --save  : Instala o SQLite no seu programa.
 npm install react-router-dom       : Instala uma biblioteca para adicionarmos navegação ao APP, clicar no botão Voltar e voltar pra página que a gente estava por exemplo.
 npm install jsonwebtoken           : Instala uma lib para podermos gerar tokens para que o usuário consiga acessar a conta dele por esse método.
 npm install multer                 : Serve para utilizarmos na hora de realizar uploads de arquivos de um computador para dentro da aplicação.
+npm install cors                   : É uma lib para compartilhamento de Recursos de Origens diferentes.
 ```
 
 ## React
