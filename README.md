@@ -128,6 +128,8 @@ Quais são as tags SQL que são utilizadas para cada uma das palavras no termo C
 > #### Transferência Representacional de Estado. É um modelo de arquitetura e não uma linguagem ou tecnologia de programação, que fornece diretrizes para que os sistemas distribuídos se comuniquem usando os princípios e protocolos Web, como por exemplo, o protocolo HTTP.
 ### API RESTful
 > #### É aquela API que cumpre as diretrizes RESTful. (junção da API com o REST)
-`Cliente - Server` `O cliente e o servidor deve estar separado.` |
-`Stateless` `Cada requisição deve ter o necessário para o servidor entender e responder a requisição. O servidor não deve lembrar/armazenar estados.` |
+`Cliente - Server` `O cliente e o servidor deve estar separado.`
+
+`Stateless` `Cada requisição deve ter o necessário para o servidor entender e responder a requisição. O servidor não deve lembrar/armazenar estados.`
+
 `Layered System` `O cliente acessa um endpoint sem precisar saber como é implementada.`
