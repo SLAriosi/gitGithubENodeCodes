@@ -135,3 +135,17 @@ Quais são as tags SQL que são utilizadas para cada uma das palavras no termo C
 `Stateless` `Cada requisição deve ter o necessário para o servidor entender e responder a requisição. O servidor não deve lembrar/armazenar estados.`
 
 `Layered System` `O cliente acessa um endpoint sem precisar saber como é implementada.`
+
+## Hooks
+### Permite que você use estados e outros recursos do React sem escrever numa classe. Encapsula funcionalidades e facilita o reaproveitamento da sua lógica.
+> #### Exemplos de Hooks
+> `useState` `useEffect`
+> #### Como escrever os Hooks:
+> `use`+`NomeDoHook` -----> `Todo em camelCase e no final fica algo tipo` `useNomeDoHook`
+
+## Estados
+### Por que não utilizarmos variáveis comuns ?
+> #### Variáveis não persistem entre renderizações.
+> ##### Quando o React renderiza o componente uma segunda vez, ele o renderiza do zero. Não considera nenhuma mudança nas variáveis locais. Ou seja, as alterações em variáveis locais não irão acionar renderizações. O React não percebe que precisa renderizar o componente novamente com os novos dados.
+> #### Para atualizar um componente com novos dados, duas coisas precisam acontecer:
+> ##### 1. Retenha os dados entre as renderizações.
