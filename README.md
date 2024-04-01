@@ -48,6 +48,7 @@ npm install react-router-dom       : Instala uma biblioteca para adicionarmos na
 npm install jsonwebtoken           : Instala uma lib para podermos gerar tokens para que o usuário consiga acessar a conta dele por esse método.
 npm install multer                 : Serve para utilizarmos na hora de realizar uploads de arquivos de um computador para dentro da aplicação.
 npm install cors                   : É uma lib para compartilhamento de Recursos de Origens diferentes. Habilita que o backend realize as requisições do front end.
+npm install axios                  : Biblioteca usada para trabalhar com requisições http.
 ```
 
 ## React
