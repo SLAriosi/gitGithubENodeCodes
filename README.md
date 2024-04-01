@@ -46,6 +46,7 @@ npm install nodemon --save-dev     : Faz Instala o Nodemon, que faz atualizaçõ
 npm install sqlite3 sqlite --save  : Instala o SQLite no seu programa.
 npm install react-router-dom       : Instala uma biblioteca para adicionarmos navegação ao APP, clicar no botão Voltar e voltar pra página que a gente estava por exemplo.
 npm install jsonwebtoken           : Instala uma lib para podermos gerar tokens para que o usuário consiga acessar a conta dele por esse método.
+npm install multer                 : Serve para utilizarmos na hora de realizar uploads de arquivos de um computador para dentro da aplicação.
 ```
 
 ## React
@@ -111,3 +112,11 @@ Quais são as tags SQL que são utilizadas para cada uma das palavras no termo C
 > ### `NPX`
 >  #### O npx significa Node Package Execute e vem com o npm acima da versão 5.2.
 >  #### É um executador de pacotes npm que pode executar qualquer pacote que você quiser do registro npm sem sequer instalar esse pacote.
+
+## Manipulando Arquivos
+### O módulo fs do Node.js
+> #### O módulo *fs* permite trabalhar e manipular os arquivos.
+> #### *.rename*: A função .rename serve para renomear ou mover o arquivo, ai passamos 2 informações, onde está o arquivo e para onde quero que ele vá utilizando o path.resolve
+> #### *.path.resolve*: Resolver uma sequência de segmento de caminho para um caminho absoluto.
+> #### *.stat*: Retorna o status do arquivo.
+> #### *.unlink*: Remove um arquivo.
