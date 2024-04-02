@@ -149,3 +149,39 @@ Quais são as tags SQL que são utilizadas para cada uma das palavras no termo C
 > ##### Quando o React renderiza o componente uma segunda vez, ele o renderiza do zero. Não considera nenhuma mudança nas variáveis locais. Ou seja, as alterações em variáveis locais não irão acionar renderizações. O React não percebe que precisa renderizar o componente novamente com os novos dados.
 > #### Para atualizar um componente com novos dados, duas coisas precisam acontecer:
 > ##### 1. Retenha os dados entre as renderizações.
+> ##### 2. Acione o React para renderuzar o componente com novos dados (re-renderização).
+
+> #### O useState fornece essas duas coisas:
+> ##### 1. Uma variável de estado para reter os dados entre as renderizações.
+> ##### 2. Uma função de configuração de estado para atualizar a variável e acionar o React para renderizar o componente novamente.
+
+> ### Em React, useState, assim como qualquer outra função que comece com "use" é chamado de Hook. (Gancho) 
+> #### Hooks são funções especiais que só estão disponíveis enquanto o React está renderizando.
+> #### Quando você chama o useState, você está dizendo ao React que deseja que este componente se lembre de algo
+
+> ### Recapitulando:
+> #### 1. Use uma variável de estado quando um componente precisar "lembrar" alguma informação entre renderizações.
+> #### 2. As variáveis de estado são declaradas utilizando o useState.
+> #### 3. O useState retorna um par de valores: o estado atual e a função para atualizá-lo
+> #### 4. O estado é privado para o componente. Se você renderizar em dois lugares, cada cópia terá seu próprio estado.
+
+## Local Storage
+### Permite armazenar informações no navegador do usuário.
+> #### Estrutura do Local Storage
+> ##### `Local Storage` `Chave` `Valor`
+> ##### `Exemplo:`
+>```javascript
+>localStorage.setItem("user", "Ariosi Lucas");
+>```
+
+
+
+
+
+
+
+
+
+
+
+
