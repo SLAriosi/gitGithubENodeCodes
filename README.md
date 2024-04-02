@@ -174,6 +174,77 @@ Quais são as tags SQL que são utilizadas para cada uma das palavras no termo C
 >localStorage.setItem("user", "Ariosi Lucas");
 >```
 
+## useEffect
+### O que o useEffect faz ?
+> #### Você diz ao React que o componente precisa fazer algo depois da renderização. Isto é, depois que realizar as atualizações do DOM.
+### Por que o useEffect é chamado dentro de um componente ?
+> #### Colocando useEffect dentro do componente nos permite acessar os estados do componenete.
+> > ##### `Exemplo:`
+>```javascript
+>export function MyComponent(){
+>  const [name, serName] = useState("")
+>
+>  useEffect(() => {
+>
+>    searchByName()
+>
+>  }, [name])
+>
+>  return(
+>    // ...
+>  )
+>
+>}
+>```
+
+## Renderizações
+### Render:
+> #### Antes dos seus componentes serem exibidos na tela eles devem ser renderizados pelo React.
+> #### Vamos entender as etapas desse processo e do comportamento do React.
+### Ilustração
+> #### Imagine que seus componentes são conzinheiros na cozinha montando pratos saborosos a partir dos ingredientes.
+> `Componente Card` `------>` `Propriedades`
+> `Cozinheiro 1` `------>` `Peixe Cozido no Vapor`
+> `Component` `------>` `Para fazer um button precisa do Ingrediente Title`
+
+> #### Nesse cenário o React é o garçom que faz os pedidos dos clientes e traz os seus pedidos.
+> ##### Esse processo tem 3 etapas:
+> `Etapa 1`
+> ##### Acionar: Quando o pedido é entregue a cozinha.
+> `Etapa 2`
+> ##### Renderizar: Quando o prato tá pronto e o Cozinheiro entrega o prato ao Garçom React.
+> `Etapa 3`
+> ##### Comprometer-se: Quando o garçom entrega o prato para o cliente, já que ele se Comprometeu de voltar a ele com o componente(prato).
+
+### Etapa 1
+### Há duas razões para um componente renderizar:
+> #### 1. Quando é a renderização inicial do componente.
+> ##### Quando o seu aplicativo é iniciado a renderização inicial é acionada.
+
+> #### 2. O estado do componente mudou.
+> ##### A atualização do estado do componente emfileira automaticamente uma renderização. Você pode imaginar o cliente do restaurante pedindo mais coisas.
+> #### Nesse segundo caso o ato de Re-renderizar é quando o estado é atualizado
+> ##### `Atualização do estado` `Gatilho` `Renderizar`
+
+### Etapa 2
+### React renderiza seus componentes
+> #### Depois de acionar uma renderização o React chama seus componentes para descobrir o que exibir na tela.
+> ##### O Rendering é o React chamando seus componentes.
+> #### Na renderização inicial, o React chamará o componenete raiz
+> #### Para renderizações o React chamará o componente de função cuja atualização de estado acionou a renderização.
+> `Esse processo é recursivo. O componente também pode disparar um gatilho para renderizar algo em seguida, e assim por diante.`
+> 
+> `O processo continuará até que não haja mais componenetes aninhados e o React saiba exatamente oque deve ser exibido na tela.`
+
+
+
+
+
+
+
+
+
+
 
 
 
