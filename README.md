@@ -236,8 +236,16 @@ Quais são as tags SQL que são utilizadas para cada uma das palavras no termo C
 > 
 > `O processo continuará até que não haja mais componenetes aninhados e o React saiba exatamente oque deve ser exibido na tela.`
 
+### Etapa 3
+### Após renderizar (chamar) seus componentes, o React modificará o DOM.
+> #### Para a renderização inicial o React usará a API DOM para colocar todos os nós DOM criados na tela.
+> #### Para re-renderização o React aplicará as operações mínimas necessárias (calculadas durante a renderização) para fazer o DOM corresponder à saída de renderização mais recente.
+### O React só altera os nós DOM se houver uma diferença entre as renderizações.
 
-
+### Recapitulando
+> #### Qualquer atualização de tela em um aplicativo React acontece em três etapas:
+> `1. Acionar` `2. Renderizar` `3. Comprometer-se`
+> #### O React não toca no DOM se o resultado da renderização for o mesmo da última vez.
 
 
 
