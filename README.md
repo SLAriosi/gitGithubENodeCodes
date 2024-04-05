@@ -294,7 +294,10 @@ Quais são as tags SQL que são utilizadas para cada uma das palavras no termo C
 > #### Uma boa prática também é criar um arquivo de exemplo com as chaves que seu projeto está utilizando, sem os valores sensíveis, assim quem clonar seu repositório ou ter acesso ao seu código fonte não ficará perdido.
 > #### Crie um .env.example e deixe apenas informações genéricas como é o caso do APP_NAME.
 
-
+## Mantendo a API ON
+### PM2
+> ### PM2 é um gerenciador de processor que irá ajudar a gerenciar e manter a aplicação online 24 horas por dia, 7 dias por semana.
+> #### Ele percebe quando nossa API para por algum motivo, como requisição errada enfim. E simplesmente reinicia ela, para que sempre possamos usufruir da nossa API na nossa aplicação.
 
 
 
