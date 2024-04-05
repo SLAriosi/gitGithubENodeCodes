@@ -280,9 +280,13 @@ Quais são as tags SQL que são utilizadas para cada uma das palavras no termo C
 > ```
 > ### Padrões para se adotar no .env
 > `As chaves são em caixa alta, por padrão, mas não é exigência para que funcione.`
+> 
 > `As chaves não podem ter espaço.`
+> 
 > `Os valores podem ser quaisquer tipo, que será retornado sempre uma string.`
+> 
 > `Pode haver espaçamentos, porém é feito um trim na string. (ignora esse espaço)`
+> 
 > `Pode existir chave sem valor, que nesse caso retornam uma string vazia.`
 ### Boas Práticas e cuidados
 > #### Por se tratar de informações sensíveis na sua maioria é importante que esses dados só fiquem em seu ambiente de desenvolvimento, então se você pretende compartilhar seu código lembre-se de remover esse arquivo.
