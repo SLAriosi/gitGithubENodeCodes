@@ -49,6 +49,7 @@ npm install jsonwebtoken           : Instala uma lib para podermos gerar tokens 
 npm install multer                 : Serve para utilizarmos na hora de realizar uploads de arquivos de um computador para dentro da aplicação.
 npm install cors                   : É uma lib para compartilhamento de Recursos de Origens diferentes. Habilita que o backend realize as requisições do front end.
 npm install axios                  : Biblioteca usada para trabalhar com requisições http.
+npm install dotenv --save          : Lib servirá para lidarmos com dados sensíveis, podemos criar variáveis de ambiente e utilizarmos na nossa aplicattion.
 ```
 
 ## React
