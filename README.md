@@ -247,6 +247,22 @@ Quais são as tags SQL que são utilizadas para cada uma das palavras no termo C
 > `1. Acionar` `2. Renderizar` `3. Comprometer-se`
 > #### O React não toca no DOM se o resultado da renderização for o mesmo da última vez.
 
+## O que é Deploy
+### Deploy
+> #### O deploy ou deployment significa implantar.
+> #### Significa enviar um novo projeto, mudanças ou atualizações para um determinado ambiente.
+### Ambientes
+> `Desenvolvimento` `Staging ou Teste` `Produção`
+### Estratégias
+> `Deploy Manual` 
+> ### OU
+> `Deploy Automatizado`
+
+
+
+
+
+
 
 
 
