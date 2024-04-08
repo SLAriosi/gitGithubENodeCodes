@@ -317,10 +317,23 @@ Quais são as tags SQL que são utilizadas para cada uma das palavras no termo C
 > #### 3. Ambiente
 > Os testes não devem depender de ambientes ou recursos externos, cmo serviços, API's, banco de dados, etc. O teste deve ser capaz de rodar a qualquer momento e quantas vezes forem necessárias.
 
-
-
-
-
+## O princípio da Inversão de Dependência
+> ### Definição
+> #### Módulos de alto nível não devem depender de módulos de baixo nível. Ambos devem depender de abstrações; Abstrações não devem depender de detalhes. Detalhes devem depender de abstrações.
+> ### Resumindo o Objetivo
+> #### Desacoplar e diminuir a depêndencia entre regra de negócio e infraestrutura.
+> ### Controlando o Acoplamento
+> #### De maneira geral, será praticamente impossível criar uma aplicação onde a arquitetura seja totalmente desacoplada e abstrata, pois acoplamentos concretos sempre existirão.
+> ### O Segredo
+> #### O segredo está em saber diferenciar os acoplamentos ruins dos acoplamentos bons, pois assim "modelaremos nossos sistemas fugindo dos 'acoplamentos perigosos'".
+> ### Exemplo de Acoplamento
+> #### Controller de Cadastrar Usuário
+> `Request & Response`
+> 
+> `Banco de Dados SQLite` `-->` `Dependência`
+>
+> ### Desacoplando
+> #### `Controller que cuida da Requisição e Resposta` `--->` `Informa o Banco` `--->` `Regra de negócio com a lógica do cadastro de usuário`
 
 
 
