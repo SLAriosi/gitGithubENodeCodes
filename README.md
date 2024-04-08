@@ -299,9 +299,23 @@ Quais são as tags SQL que são utilizadas para cada uma das palavras no termo C
 > ### PM2 é um gerenciador de processor que irá ajudar a gerenciar e manter a aplicação online 24 horas por dia, 7 dias por semana.
 > #### Ele percebe quando nossa API para por algum motivo, como requisição errada enfim. E simplesmente reinicia ela, para que sempre possamos usufruir da nossa API na nossa aplicação.
 
+## Testes
+### Permite identificar erros durante o desenvolvimento e assegurar a qualidade e o funcionamento correto da aplicação.
+> ### Testes Automatizados
+> #### O teste automatizado é a utilização de ferramentas de software para automatizar um processo manual conduzido por humanos de revisão e validação da aplicação. Adoção ampla do método.
 
-
-
+### Tipos de Testes
+> #### Testes de Unidade
+> ##### `Testa unidades individuais do código. Por exemplo, testa uuma função específica da aplicação.`
+> #### Testes de Integração
+> ##### `Testa as unidades do código trabalhando juntas. Por exemplo, teste de Login que envolve uma série de etapas.`
+### Boas Práticas
+> #### 1. Simples e Tápido
+> Testes simples e rápidos. Isso nos possibilita ter um feedback o mais cedo possível sobre possíveis impactos das modificações feitas no software. Além disso, facilita para podermos rodar os testes várias vezes se necessário e torna mais ágil o debug dos testes, reduzindo o tempo necessário para criar e manter os scripts.
+> #### 2. Independentes
+> Os testes devem ser independentes entre si. Isso evita que a falha em um teste cause falha em outros testes, o que dificulta e torna bem mais demorada a investigação de problemas. O "você do futuro" vai agradecer muito ao "você do presente" por isso.
+> #### 3. Ambiente
+> Os testes não devem depender de ambientes ou recursos externos, cmo serviços, API's, banco de dados, etc. O teste deve ser capaz de rodar a qualquer momento e quantas vezes forem necessárias.
 
 
 
