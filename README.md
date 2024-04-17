@@ -5,7 +5,7 @@ Todos os códigos mais utilizados e importantes para terminal.
 
 ## GIT
 
-Todos os comandos principais para se utilizar no no terminal sobre o GIT
+Todos os comandos principais para se utilizar no terminal sobre o GIT:
 
 ```
   git add . 	 	    : Adiciona todas as alterações para que possa ser usado o commit.
@@ -21,6 +21,16 @@ Todos os comandos principais para se utilizar no no terminal sobre o GIT
   git pull		    : Busca por atualizações do código dentro do github, e retorna com o código atualizado no seu VSCode.
 ```
 
+## Docker
+
+Todos os comandos principais para se utilizar no terminal sobre o Docker:
+
+```
+  sudo apt update                          : Serve para atualizarmos as pastas docker que temos no nosso computador.
+  docker-compose up [OPTIONS] [SERVICE...] : Cria e começa / (starta) nossos containers.
+
+```
+
 
 ### Arquivos GIT
 
@@ -34,7 +44,7 @@ Arquivos importantes de se ter no seu projeto
 
 ## NodeJS
 
-Todos os comandos principais para se utilizar no no terminal sobre o NodeJS
+Todos os comandos principais para se utilizar no terminal sobre o NodeJS
 
 ```
 npm init -y                        : Serve para instalar o package.json
