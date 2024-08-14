@@ -62,6 +62,14 @@ npm install axios                  : Biblioteca usada para trabalhar com requisi
 npm install dotenv --save          : Lib servirá para lidarmos com dados sensíveis, podemos criar variáveis de ambiente e utilizarmos na nossa aplicattion.
 ```
 
+## Comandos Laravel
+
+Todos os comandos principais para se utilizar no terminal sobre o Laravel;
+
+```
+composer create-projext laravel/laravel ariosi
+```
+
 ## React
 
 Comando para se utilizar no terminal. Relacionados ao REACT
