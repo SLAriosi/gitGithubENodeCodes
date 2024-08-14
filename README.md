@@ -68,7 +68,13 @@ Todos os comandos principais para se utilizar no terminal sobre o Laravel;
 
 ```
 composer create-projext laravel/laravel ariosi
+php artisan serve
 ```
+
+## Conhecimentos Básicos Laravel
+
+sempre dar um compose install quando iniciar um projeto composer ou for rodar um projeto laravel para baixar as dependências;
+a node_modules do laravel é a pasta chamada ./vendor;
 
 ## React
 
