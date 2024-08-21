@@ -69,6 +69,7 @@ Todos os comandos principais para se utilizar no terminal sobre o Laravel;
 ```
 composer create-projext laravel/laravel ariosi
 php artisan serve
+php artisan make:controller siteController -r
 ```
 
 ## Conhecimentos Básicos Laravel
