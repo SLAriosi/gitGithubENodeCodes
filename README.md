@@ -67,9 +67,10 @@ npm install dotenv --save          : Lib servirá para lidarmos com dados sensí
 Todos os comandos principais para se utilizar no terminal sobre o Laravel;
 
 ```
-composer create-projext laravel/laravel ariosi
-php artisan serve
-php artisan make:controller siteController -r
+composer create-projext laravel/laravel ariosi ;
+php artisan serve ;
+php artisan make:controller SiteController -r ;
+php artisan make:model Client -m ; Assim o artisan criará uma migration chamada clients e uma model chamada Client;
 ```
 
 ## Conhecimentos Básicos Laravel
