@@ -73,7 +73,7 @@ php artisan make:controller SiteController -r ;
 php artisan make:model Client -m ; Assim o artisan criará uma migration chamada clients e uma model chamada Client;
 php artisan key:generate   ==== Caso dê bug ne falta de key;
 php artisan rollback       ==== Para dar rollback na minha migration;
-php composer install       ==== Para instalar as dependências do artisan, pique um npm i, ou um yarn;
+composer install       ==== Para instalar as dependências do artisan, pique um npm i, ou um yarn;
 ```
 
 ## Conhecimentos Básicos Laravel
