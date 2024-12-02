@@ -21,6 +21,14 @@ Todos os comandos principais para se utilizar no terminal sobre o GIT:
   git pull		    : Busca por atualizações do código dentro do github, e retorna com o código atualizado no seu VSCode.
 ```
 
+## Advanced CSS
+
+Alguns CSS avançados para utilizar e para que servem.
+
+```
+  page-break-inside: avoid;    ------------------------------------->>>>>> Serve para dar um flex-wrap (quebrar linha quando não couber um determinado item), na tela de impressão, ou seja ele vai ver se cabe na folha a4 senão ele quebra a linha
+```
+
 ## Docker
 
 Todos os comandos principais para se utilizar no terminal sobre o Docker:
